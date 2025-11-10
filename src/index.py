@@ -58,6 +58,7 @@ def ottamisen_testaus(olutta, mehua):
     saatiin = olutta.ota_varastosta(1000.0)
     print(f"saatiin {saatiin}")
     print(f"Olutvarasto: {olutta}")
+    print(f"Olutvarasto: {olutta}")
     print(f"Mehuvarasto: {mehua}")
 
 
