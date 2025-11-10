@@ -8,8 +8,6 @@ def luonnin_testaus():
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
     print(f"Olutvarasto: {olutta}")
-    print("This is a very long line that exceeds the 80 character limit set in pylintrc")
-
     return mehua, olutta
 
 
@@ -58,7 +56,6 @@ def ottamisen_testaus(olutta, mehua):
     print("olutta.ota_varastosta(1000.0)")
     saatiin = olutta.ota_varastosta(1000.0)
     print(f"saatiin {saatiin}")
-    print(f"Olutvarasto: {olutta}")
     print(f"Olutvarasto: {olutta}")
     print(f"Mehuvarasto: {mehua}")
 
